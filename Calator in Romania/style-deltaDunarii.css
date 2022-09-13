@@ -1,0 +1,46 @@
+/*TEXT*/
+article{
+    padding: 20px;
+    line-height: 1.5;
+    overflow: auto;
+}
+body{
+    margin-left: 50px;
+    background-color: rgb(39, 37, 37);
+}
+h1{
+    background-image: linear-gradient(#f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    color: rgb(218, 204, 204);
+    text-indent: 60px;
+    font-family: 'Montserrat';
+    margin:0;
+}
+/* IMAGE */
+
+.imagefloat img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 10px;
+}
+.imagefloat{
+  float: right;
+  width: 150px;
+  vertical-align: bottom;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
